@@ -5,12 +5,12 @@ import org.junit.Test;
 import static junit.framework.TestCase.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-public class SimpleTests {
+public class SimpleTest {
 
     @Test
     public void test() {
 
-        assertTrue(!(!true));
+        assertTrue(!true);
 
     }
 
